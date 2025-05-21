@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Calculator</title>
+  </head>
+  <body class="justify-center flex">
+    <div
+      class="justify-center border flex w-[300px] h-[300px] relative bg-linear-to-r from-cyan-500 to-blue-500"
+    >
+      <div class="input">
+        <input
+          type="text"
+          placeholder="type"
+          class="w-4/5 p-2 mx-[30px] my-[10px] border-2 border-white"
+        />
+      </div>
+      <div
+        class="grid grid-cols-4 grid-rows-4 absolute bottom-0 p-4 min-h-[250px] min-w-[250px] cursor-pointer"
+      >
+        <button
+          id="seven"
+          class="border-white border rounded-full hover:pr-2 hover:pb-2 active:bg-white duration-550 active:pl-2 active:pt-2"
+        >
+          7
+        </button>
+        <button
+          id="eight"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pb-2 active:pt-2"
+        >
+          8
+        </button>
+        <button
+          id="nine"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pb-2 active:pt-2"
+        >
+          9
+        </button>
+        <button
+          id="divide"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pl-2 hover:pb-2 active:pt-2 active:pr-2"
+        >
+          /
+        </button>
+        <button
+          id="four"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pr-2 active:pl-2"
+        >
+          4
+        </button>
+        <button
+          id="five"
+          class="border-white border rounded-full active:bg-white duration-550"
+        >
+          5
+        </button>
+        <button
+          id="six"
+          class="border-white border rounded-full active:bg-white duration-550"
+        >
+          6
+        </button>
+        <button
+          id="multiply"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pl-2 active:pr-2"
+        >
+          x
+        </button>
+        <button
+          id="one"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pr-2 active:pl-2"
+        >
+          1
+        </button>
+        <button
+          id="two"
+          class="border-white border rounded-full active:bg-white duration-550"
+        >
+          2
+        </button>
+        <button
+          id="three"
+          class="border-white border rounded-full active:bg-white duration-550"
+        >
+          3
+        </button>
+        <button
+          id="minus"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pl-2 active:pr-2"
+        >
+          -
+        </button>
+        <button
+          id="zero"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pr-2 hover:pt-2 active:pl-2"
+        >
+          0
+        </button>
+        <button
+          id="dot"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pt-2 active:pb-2"
+        >
+          .
+        </button>
+        <button
+          id="equals"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pt-2"
+        >
+          =
+        </button>
+        <button
+          id="plus"
+          class="border-white border rounded-full active:bg-white duration-550 hover:pl-2 hover:pt-2 active:pr-2 active:pb-2"
+        >
+          +
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
